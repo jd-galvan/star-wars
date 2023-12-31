@@ -1,0 +1,7 @@
+.StarshipItem {
+  --darkblue: #040a2c;
+  --lightred: #ff5e5e;
+  background-color: var(--darkblue);
+  border: 3px solid var(--lightred);
+  box-shadow: 0 0 15px var(--lightred), inset 0 0 15px var(--lightred);
+}
