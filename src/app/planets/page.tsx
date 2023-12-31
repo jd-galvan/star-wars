@@ -14,7 +14,7 @@ export default async function Planets({ searchParams }: PlanetsPageProps) {
   return (
     <section className={styles.Planets}>
       <div>
-        {planets?.map(e => (
+        {planets?.map((e: PlanetType) => (
           <PlanetItem key={e.name} {...e} />
         )
         )}

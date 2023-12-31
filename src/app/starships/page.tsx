@@ -14,8 +14,8 @@ export default async function Starships({ searchParams }: StarshipsPageProps) {
   return (
     <section className={styles.Starships}>
       <div>
-        {starships?.map(e => (
-          <StarshipItem key={e} {...e} />
+        {starships?.map((e: StarshipType) => (
+          <StarshipItem key={e.name} {...e} />
         )
         )}
       </div>

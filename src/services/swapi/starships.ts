@@ -5,17 +5,9 @@ export const getStarships = async (url: string) => {
     const nextPage = next?.slice(-1)
     const previousPage = previous?.slice(-1)
 
-    const starships = results.map(e => {
+    const starships = results.map((e: StarshipType) => {
       return {
         name: e.name,
-        model: e.model,
-        manufacturer: e.manufacturer,
-        cost_in_credits: e.cost_in_credits,
-        length: e.length,
-        max_atmosphering_speed: e.max_atmosphering_speed,
-        crew: e.crew,
-        passengers: e.passengers,
-        cargo_capacity: e.cargo_capacity,
       }
     })
 
