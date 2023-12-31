@@ -9,9 +9,9 @@ export const getCharacters = async (page: string) => {
 
 
     const regex = /\/(\d+)\/$/
-    const characters = results.map(e => {
+    const characters = results.map((e: CharacterType) => {
 
-      const id = e.url.match(regex)?.[1]
+      const id = e.url?.match(regex)?.[1]
 
       return {
         name: e.name,

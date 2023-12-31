@@ -17,7 +17,7 @@ export default async function Characters({ searchParams }: CharactersPageProps) 
     <section className={styles.Characters}>
       <h3>Select a character</h3>
       <div>
-        {characters?.map(e => (
+        {characters?.map((e: CharacterType) => (
           <CharacterItem key={e.name} {...e} />
         )
         )}
