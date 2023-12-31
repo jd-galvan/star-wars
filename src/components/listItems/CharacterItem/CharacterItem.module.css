@@ -1,0 +1,12 @@
+.CharacterItem__container {
+  --darkblue: #040a2c;
+  --lightblue: #00f0ff;
+  background-color: var(--darkblue);
+  border: 3px solid var(--lightblue);
+  box-shadow: 0 0 15px var(--lightblue), inset 0 0 15px var(--lightblue);
+}
+
+.CharacterItem__link {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,22 @@
+.Character__container {
+  --darkblue: #040a2c;
+  --lightblue: #00f0ff;
+  background-color: var(--darkblue);
+  border: 3px solid var(--lightblue);
+  box-shadow: 0 0 15px var(--lightblue), inset 0 0 15px var(--lightblue);
+  display: grid;
+  grid-template-areas:
+    'left right';
+  padding: 1.5rem;
+}
+
+.Character__container__left {
+  text-align: right;
+  grid-area: left;
+  padding-right: 30px;
+}
+
+.Character__container__right {
+  text-align: left;
+  grid-area: right;
+}
