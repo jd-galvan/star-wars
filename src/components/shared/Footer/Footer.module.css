@@ -1,0 +1,15 @@
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 100px;
+}
+
+.Footer a {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+}

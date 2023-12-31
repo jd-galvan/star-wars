@@ -1,0 +1,20 @@
+.Menu div {
+  text-align: center;
+  display: inline;
+}
+
+.Menu li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.Menu a {
+  cursor: pointer;
+  text-decoration: none;
+  color: gray;
+  font-size: larger;
+}
+
+.Menu a:hover {
+  text-decoration: underline;
+}
