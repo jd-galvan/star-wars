@@ -1,0 +1,9 @@
+.Hero {
+  text-align: center;
+  margin-bottom: -9rem;
+}
+
+.Hero h1 {
+  font-family: 'StarWars', sans-serif;
+  font-size: 10rem;
+}
