@@ -1,0 +1,2 @@
+SWAPI_BASE_PATH=https://swapi.dev/api
+AKABAB_URL=https://akabab.github.io/starwars-api/api/id/{id}.json
