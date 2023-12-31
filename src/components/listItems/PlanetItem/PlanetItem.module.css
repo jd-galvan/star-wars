@@ -1,0 +1,7 @@
+.PlanetItem {
+  --darkblue: #040a2c;
+  --lightgreen: #4eff6e;
+  background-color: var(--darkblue);
+  border: 3px solid var(--lightgreen);
+  box-shadow: 0 0 15px var(--lightgreen), inset 0 0 15px var(--lightgreen);
+}
